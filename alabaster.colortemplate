@@ -76,17 +76,16 @@ Color: white         #f7f7f7                   ~         LightGrey
 Color: lineHighlight #f0f0f0                   ~         LightGrey
 Color: active        #007ACC                   ~         DarkBlue
 Color: selection     #BFDBFE                   ~         LightBlue
-Color: selectionInactive #E0E0E0 ~ LightGrey
-Color: diffAdd #6ABF40 ~ LightGreen
-Color: diffChange #EC8013 ~ DarkYellow
-Color: diffDelete #D2322D ~ LightRed
-Color: blue      #325CC0 ~ DarkBlue
-Color: green     #448C27 ~ DarkGreen
-Color: red       #AA3731 ~ DarkRed
-Color: magenta   #7A3E9D ~ DarkMagenta
-Color: grey      #707070 ~ DarkGrey
-Color: lightGrey      #A5A5A5 ~ LightGrey
-Color: orange    #FFBC05 ~ DarkYellow
+Color: diffAdd       #6ABF40                   ~         LightGreen
+Color: diffChange    #EC8013                   ~         DarkYellow
+Color: diffDelete    #D2322D                   ~         LightRed
+Color: blue          #325CC0                   ~         DarkBlue
+Color: green         #448C27                   ~         DarkGreen
+Color: red           #AA3731                   ~         DarkRed
+Color: magenta       #7A3E9D                   ~         DarkMagenta
+Color: grey          #707070                   ~         DarkGrey
+Color: lightGrey     #A5A5A5                   ~         LightGrey
+Color: orange        #FFBC05                   ~         DarkYellow
 Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
 Color: brightred     rgb(255, 100,   0)        ~         LightRed
 Color: brightgreen   rgb(100, 255,   0)        ~         LightGreen
@@ -117,24 +116,24 @@ Variant: gui 256 8
 #endif
 
 ; Group              Foreground        Background        Attributes
-ColorColumn          black                lineHighlight
+ColorColumn          black             lineHighlight
 Conceal              none              none
 Cursor               black             active
-CursorIM               black             active
-CursorColumn         none             lineHighlight
-CursorLine           none             lineHighlight
-CursorLineNr         active             white
-DiffAdd              diffAdd             white             
-DiffChange           diffChange             white             
-DiffDelete           diffDelete             white             
-DiffText             diffChange             white             bold
+CursorIM             black             active
+CursorColumn         none              lineHighlight
+CursorLine           none              lineHighlight
+CursorLineNr         active            white
+DiffAdd              diffAdd           white             
+DiffChange           diffChange        white             
+DiffDelete           diffDelete        white             
+DiffText             diffChange        white             bold
 Directory            black             white
 EndOfBuffer          black             white
 ErrorMsg             black             white             
 FoldColumn           black             white
 Folded               black             white             italic
 IncSearch            black             orange             
-Substitute            black             orange           
+Substitute           black             orange           
 LineNr               black             white
 MatchParen           black             white
 ModeMsg              black             white
@@ -160,13 +159,13 @@ TabLineSel           white             grey
 Title                black             white
 VertSplit            black             white
 Visual               black             selection
-VisualNOS            black             selectionInactive
+VisualNOS            black             selection
 WarningMsg           black             white
 WildMenu             black             white
-Comment              red             none              
-Constant             magenta             none
-String               green           none
-Error                red             none             
+Comment              red               none              
+Constant             magenta           none
+String               green             none
+Error                red               none             
 Identifier           black             none
 Ignore               black             none
 PreProc              black             none
