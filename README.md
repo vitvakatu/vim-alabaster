@@ -9,7 +9,6 @@ Using `lazy.nvim`:
 ```
 {
     "vitvakatu/vim-alabaster",
-    dev = true,
     lazy = false,
     priority = 1000,
     config = function()
