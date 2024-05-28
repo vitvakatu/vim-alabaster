@@ -102,6 +102,12 @@ Term colors: grey brightred brightgreen brightyellow
 Term colors: brightblue brightmagenta brightcyan brightwhite
 ; }}}
 
+
+; Set cursor color
+verbatim
+set guicursor=n-v-c-sm:block-Cursor,i-ci-ve:ver25-Cursor,r-cr-o:hor20
+endverbatim
+
 ; Default highlight groups {{{
 Variant: gui
 #if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
@@ -178,12 +184,6 @@ WinSeparator         none              grey
 ; See `:help window-toolbar`
 ToolbarLine          none              white
 ToolbarButton        black             white             bold
-
-; Set cursor color
-verbatim
-let g:guicursor='n-v-c-sm:block-Cursor,i-ci-ve:ver25-Cursor,r-cr-o:hor20'
-endverbatim
-
 ; }}}
 
 ; Additional highlight groups {{{
