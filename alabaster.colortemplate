@@ -153,10 +153,10 @@ Question             black             white
 Search               black             orange
 SignColumn           black             white
 SpecialKey           black             white
-SpellBad             black             white             s=red
-SpellCap             black             white             s=blue
-SpellLocal           black             white             s=magenta
-SpellRare            black             white             s=cyan 
+SpellBad             black             white             undercurl guisp=red
+SpellCap             black             white             undercurl guisp=blue
+SpellLocal           black             white             undercurl guisp=magenta
+SpellRare            black             white             undercurl guisp=cyan 
 StatusLine           white             grey
 StatusLineNC         white             lightGrey
 TabLine              white             lightGrey
