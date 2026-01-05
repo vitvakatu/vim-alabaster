@@ -85,6 +85,7 @@ Color: red           #AA3731                   ~         DarkRed
 Color: magenta       #7A3E9D                   ~         DarkMagenta
 Color: grey          #707070                   ~         DarkGrey
 Color: lightGrey     #A5A5A5                   ~         LightGrey
+Color: subtleGrey    #D0D0D0                   ~         LightGrey
 Color: orange        #FFBC05                   ~         DarkYellow
 Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
 Color: brightred     rgb(255, 100,   0)        ~         LightRed
@@ -144,7 +145,7 @@ LineNr               black             white
 MatchParen           black             white
 ModeMsg              black             white
 MoreMsg              black             white
-NonText              black             white
+NonText              subtleGrey        white
 Pmenu                black             white
 PmenuSbar            black             white
 PmenuSel             black             white             
@@ -152,7 +153,8 @@ PmenuThumb           black             white
 Question             black             white
 Search               black             orange
 SignColumn           black             white
-SpecialKey           black             white
+SpecialKey           subtleGrey        white
+Whitespace           subtleGrey        none
 SpellBad             black             white             undercurl guisp=red
 SpellCap             black             white             undercurl guisp=blue
 SpellLocal           black             white             undercurl guisp=magenta
